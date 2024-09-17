@@ -1,0 +1,124 @@
+html {
+  background-image: linear-gradient(rgb(190, 190, 190), rgb(116, 116, 116));
+}
+
+body {
+  padding: 20px;
+  width: 1000px;
+  margin: 25px auto;
+  background-color: rgb(233, 233, 233);
+  border-radius: 25px;
+}
+
+td {
+  padding: 20px 10px;
+}
+
+p {
+  font-size: 24px;
+}
+
+.link {
+  text-align: center;
+  font-family: "Outfit";
+  font-size: 18px;
+  color: blue;
+  background-color: rgb(211, 211, 211);
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.link:hover {
+  color: purple;
+}
+
+.topparagraph {
+  text-align: center;
+  font-size: 20px;
+}
+
+li {
+  list-style-position: inside;
+  font-family: "Outfit";
+  font-size: 18px;
+  margin-left: 360px;
+}
+
+hr {
+  margin-top: 25px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  background-color: white;
+  padding: 10px;
+  margin: 0px auto;
+  border-radius: 20px;
+  box-shadow: 0px 8px rgb(192, 192, 192);
+}
+
+img {
+  width: 200px;
+  margin: 0px auto;
+}
+
+h1,
+h2,
+p {
+  font-family: "Outfit";
+}
+
+/* h2 headers */
+
+h2 {
+  border-radius: 15px;
+}
+
+#luaheader {
+  text-align: center;
+  background-color: rgb(0, 0, 129);
+  color: white;
+  box-shadow: 0px 6px rgb(0, 0, 90);
+}
+
+#pythonheader {
+  text-align: center;
+  background-color: rgb(53, 116, 164);
+  color: rgb(255, 223, 87);
+  box-shadow: 0px 6px rgb(36, 78, 110);
+}
+
+#csharpheader {
+  text-align: center;
+  background-color: rgb(54, 0, 146);
+  color: rgb(162, 122, 221);
+  box-shadow: 0px 6px rgb(30, 0, 82);
+}
+
+/* divs */
+
+div {
+  padding: 5px 25px;
+  margin: 20px 10px;
+  border-radius: 20px;
+}
+
+#luadiv {
+  background-image: linear-gradient(rgba(0, 0, 184, 0.6), rgba(0, 0, 128, 0.6));
+  box-shadow: 0px 9px rgb(0, 0, 128, 0.8);
+}
+#pythondiv {
+  background-image: linear-gradient(
+    rgba(54, 112, 160, 0.6),
+    rgba(25, 53, 75, 0.6)
+  );
+  box-shadow: 0px 9px rgb(25, 53, 75, 0.8);
+}
+#csharpdiv {
+  background-image: linear-gradient(
+    rgba(102, 0, 255, 0.6),
+    rgba(39, 0, 99, 0.6)
+  );
+  box-shadow: 0px 9px rgb(39, 0, 99, 0.8);
+}
